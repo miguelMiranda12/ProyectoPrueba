@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.InicioSesion{
+    display: flex;
+    justify-content: left;
+    background-color: rgb(116, 115, 115);
+}
+.Inicio2{
+    display: flex;
+    margin: 1px;
+    padding: 1px;
+    background-color: gray;
+    justify-content: right; 
+    justify-items: right;
+    position: relative;
+}
+
+.componentes{
+display: flex;
+justify-content: space-around;
+justify-items: center;
+background-color: rgb(94, 94, 95);
+margin: 50px;
+}
+.subtitulo{
+display: flex;
+}
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: center;
+    justify-items: center;
+}
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+.Inicio1{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: rgb(17, 20, 206);
+}
+.titulo{
+    display: flex;
+    margin: auto;
+    
+}
+.subtitulo2{
+    text-align: center;
+    background-color: gray;
+}
+#header{
+    margin: auto;
+    width: px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol{
+    list-style: none;
+
+}
+.nav li a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover {
+    background-color: #434343;
+}
+.nav > li {
+    float: left;
+
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+display: block;
+}
